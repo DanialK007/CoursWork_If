@@ -1,0 +1,12 @@
+age = prompt('How old are you?', '');
+if (age <= 18){
+  console.log("You are too young to do business.");
+} else if (age > 18 && age <= 40 ){
+  console.log("You should do a business. It's the best time to do business.");
+} else if (age > 40 && age <= 60 ){
+  console.log("You can do a business till now.");
+} else if (age > 60 && age <= 100 ){
+  console.log("The time is over. You shouldn't do for a business. You should prepare for your last time.");
+} else {
+  console.log("Unusual Age!");
+}
